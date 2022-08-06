@@ -1,77 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="signup.css">
-</head>
-<body>
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
-            <form action="#">
-                <h1>Create Account</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registration</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
-            </form>
+  <head>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo2">
+          <img src="ramaiah.PNG" />
         </div>
+        <div class="logo2">
+          <img src="diamond.PNG" />
+        </div>
+        <div class="logo3">
+          <img
+            src="https://ahalia.ac.in/wp-content/uploads/2020/01/iic-logo.png"
+          />
+        </div>
+        <div class="logo4">
+          <img
+            src="https://th.bing.com/th/id/OIP.HzCLUcLpZypNb2Sthgr8kAHaDV?pid=ImgDet&rs=1"
+          />
+        </div>
+      </nav>
+      <div class="space"></div>
+      <div class="btn">
+        <a href="#"><button class="button">contact us</button></a>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="container">
         <div class="form-container sign-in-container">
-            <form action="#">
-                <h1>Register with us</h1>
-                <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="tel" id="fnumber" name="fnumber"pattern="[0-9]{4}[0-9]{3}[0-9]{3}" placeholder="eg. 9876543210" required>
-                <select name="gender" id="gender">
-                    <option value="default">Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Others">Others</option>
-                </select>
-                <select name="category" id="category">
-                    <option value="default">Category</option>
-                    <option value="GEN">GEN</option>
-                    <option value="SC">SC</option>
-                    <option value="ST">ST</option>
-                    <option value="OBC">OBC</option>
-                    <option value="GEN-EWS">GEN-EWS</option>
-                </select>
-                <div id="emailHelp" class="form-text">*Note:Above information only required to link with schemes under other ministries</div>
-                <select name="engagement" id="engagement">
-                    <option value="default">Current Engagement With The Institute</option>
-                    <option value="student">Student</option>
-                    <option value="Faculty/Staff">Faculty/Staff</option>
-                    <option value="Graduated/Alumni Member">Graduated/Alumni Member</option>
-                    <option value="Entrepreneur at Incubation Unit/Institute">Entrepreneur at Incubation Unit/Institute</option>
-                </select>
-                <input type="text" id="fno." name="fno." placeholder="Student/Employee ID number" required>
-                <input type="file" id="myfile" name="myfile" required>
-                
-                <button>Sign up</button>
-            </form>
+          <form action="#">
+            <h1>Register with us</h1>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Enter your name"
+              required
+            />
+            <input type="email" placeholder="Email" required />
+            <input
+              type="tel"
+              id="fnumber"
+              name="fnumber"
+              pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+              placeholder="eg. 9876543210"
+              required
+            />
+            <select name="gender" id="gender">
+              <option value="default">Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+            <select name="category" id="category">
+              <option value="default">Category</option>
+              <option value="GEN">GEN</option>
+              <option value="SC">SC</option>
+              <option value="ST">ST</option>
+              <option value="OBC">OBC</option>
+              <option value="GEN-EWS">GEN-EWS</option>
+            </select>
+            <div id="emailHelp" class="form-text">
+              *Note:Above information only required to link with schemes under
+              other ministries
+            </div>
+            <select name="engagement" id="engagement">
+              <option value="default">
+                Current Engagement With The Institute
+              </option>
+              <option value="student">Student</option>
+              <option value="Faculty/Staff">Faculty/Staff</option>
+              <option value="Graduated/Alumni Member">
+                Graduated/Alumni Member
+              </option>
+              <option value="Entrepreneur at Incubation Unit/Institute">
+                Entrepreneur at Incubation Unit/Institute
+              </option>
+            </select>
+            <input
+              type="text"
+              id="fno."
+              name="fno."
+              placeholder="Student/Employee ID number"
+              required
+            />
+            <input type="file" id="myfile" name="myfile" required />
+
+            <button>Sign up</button>
+          </form>
         </div>
         <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <div class="logoimg"><img src="https://www.myaspirations.biz/LCS/Account-manager-college-image-logo/logo_msrim.png"></div>
-                    <h1>Hello, welcome!</h1>
-                    <p>Already have an account?</p>
-                    <button class="ghost" id="signUp">Login</button>
-                </div>
+          <div class="overlay">
+            <div class="overlay-panel overlay-right">
+              <div class="logoimg">
+                <img
+                  src="https://www.myaspirations.biz/LCS/Account-manager-college-image-logo/logo_msrim.png"
+                />
+              </div>
+              <h1>Hello, welcome!</h1>
+              <p>Already have an account?</p>
+              <button class="ghost" id="signUp">Login</button>
             </div>
+          </div>
         </div>
-    </div>
-    
-   
-
-</body>
+      </div>
+    </main>
+    <footer>
+      <div class="copyright">
+        <span>Copyright© MSRIT Innovation Cell. All right reserved.</span>
+      </div>
+    </footer>
+  </body>
 </html>
